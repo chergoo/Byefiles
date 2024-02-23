@@ -1,0 +1,11 @@
+D:\LOG\VSSTU\Byefiles\bin\Debug\Byefiles.exe.config
+D:\LOG\VSSTU\Byefiles\bin\Debug\Byefiles.exe
+D:\LOG\VSSTU\Byefiles\bin\Debug\Byefiles.pdb
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.csproj.AssemblyReference.cache
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.check.resources
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.Form1.resources
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.Properties.Resources.resources
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.csproj.GenerateResource.cache
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.csproj.CoreCompileInputs.cache
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.exe
+D:\LOG\VSSTU\Byefiles\obj\Debug\Byefiles.pdb
