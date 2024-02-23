@@ -280,5 +280,61 @@ namespace Byefiles
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // 创建一个 FolderBrowserDialog 对象
+            FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+
+            // 设置对话框的标题和提示信息
+            folderBrowserDialog.Description = "请选择输出文件夹";
+            folderBrowserDialog.ShowNewFolderButton = true; // 允许用户创建新文件夹
+
+            // 打开对话框，并等待用户选择文件夹
+            DialogResult result = folderBrowserDialog.ShowDialog();
+
+            // 检查用户是否点击了“确定”按钮
+            if (result == DialogResult.OK)
+            {
+                // 获取用户选择的文件夹路径
+                string selectedFolderPath = folderBrowserDialog.SelectedPath;
+
+                // 输出所选文件夹的地址
+                Console.WriteLine("您选择的文件夹路径是：" + selectedFolderPath);
+                textBox2.Text = selectedFolderPath;
+            }
+            else
+            {
+                Console.WriteLine("用户取消了文件夹选择。");
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // 创建一个 OpenFileDialog 对象
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            // 设置对话框的标题和提示信息
+            openFileDialog.Title = "请选择文件";
+            openFileDialog.Filter = "所有文件 (*.*)|*.*"; // 设置文件过滤器，这里选择所有文件
+
+            // 打开对话框，并等待用户选择文件
+            DialogResult result = openFileDialog.ShowDialog();
+
+            // 检查用户是否点击了“确定”按钮
+            if (result == DialogResult.OK)
+            {
+                // 获取用户选择的文件路径
+                string selectedFilePath = openFileDialog.FileName;
+
+                // 输出所选文件的地址
+                Console.WriteLine("您选择的文件路径是：" + selectedFilePath);
+                textBox3.Text = selectedFilePath;
+            }
+            else
+            {
+                Console.WriteLine("用户取消了文件选择。");
+            }
+        }
     }
 }
